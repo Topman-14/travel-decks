@@ -1,0 +1,36 @@
+.card{
+    background: rgb(15, 16, 26);
+    border-radius: 10px;
+    margin: 20px auto; 
+    height:190px; 
+    display:flex;
+    padding:6px;
+    font-size: 0.8rem;
+    max-width: 600px;
+}
+.card > img{
+    height:100%;
+    width:35%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card > div{
+    padding-left:10px;
+}
+.location{
+    margin-block:3px;
+    font-size: 0.7rem;
+}
+.title{
+    margin-block:3px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+.dates{
+    margin-block:4px;
+    font-size: 0.7rem;
+}
+.desc{
+    font-family: 'brandon grotesque', Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+}
